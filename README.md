@@ -1,6 +1,6 @@
 # A Dynamic Risk Assessment System
 
-- Project **A Dynamic Risk Assessment System** is the fourth project from the Udacity's ML DevOps Engineer Nanodegree 
+- Project: **A Dynamic Risk Assessment System** is the fourth project from the Udacity's ML DevOps Engineer Nanodegree 
 
 ## Project Background
 Imagine that you're the Chief Data Scientist at a big company that has 10,000 corporate clients. Your company is extremely concerned about attrition risk: the risk that some of their clients will exit their contracts and decrease the company's revenue. They have a team of client managers who stay in contact with clients and try to convince them not to exit their contracts. However, the client management team is small, and they're not able to stay in close contact with all 10,000 clients.
@@ -10,7 +10,7 @@ The company needs you to create, deploy, and monitor a risk assessment ML model 
 Creating and deploying the model isn't the end of your work, though. Your industry is dynamic and constantly changing, and a model that was created a year or a month ago might not still be accurate today. Because of this, you need to set up regular monitoring of your model to ensure that it remains accurate and up-to-date. You'll set up processes and scripts to re-train, re-deploy, monitor, and report on your ML model, so that your company can get risk assessments that are as accurate as possible and minimize client attrition.
 
 ## Project Description
-The objective of this project is to implement an MLOps Life cycle for an ML Model to predict which customers that are most likely to exit their contracts. This project will check in regular intervals for new datasets and acts upon any new data to see if the model is needed to be-trained. The ML model is evaluated for model drift, re-train the ML model when the model is drifted. Then, it will generate a new Risk Assessment report which captures the model performance, data quality and timing of execution and the report is saved and updated in a production deployment folder. Model Drift is defined as the situation when a model tends to perform worse over time when tested on new data sets.
+The objective of this project is to implement a MLOps Life cycle for an ML Model to predict which customers that are most likely to exit their contracts. This project will check in regular intervals for new datasets availablity and acts upon any new data to see if the model is needed to be retrained. The ML model is evaluated for model drift, re-train the ML model when the model is drifted. Then, it will generate a new Risk Assessment report which captures the model performance, data quality and timings of execution and the report is saved and updated in a production deployment folder. Model Drift is defined as the situation when a model tends to perform worse over time when tested on new data sets.
 
 This project follows the following steps:
 ### Data ingestion
@@ -39,7 +39,7 @@ The files and directories in the root directory are organized as the following:
 
 * Other files
   * **requirements.txt**: This text file is defined the current versions of all of the dependent python modules used in this project
-  * **config.json**: This json file is used to define the physical and the logical mapping of vruous data folders
+  * **config.json**: This json file is used to define the physical and the logical mapping of various data folders
   * **cronjob.txt** A crontab file that runs the fullprocess.py script one time every 10 min.
 
 * Data Folders
